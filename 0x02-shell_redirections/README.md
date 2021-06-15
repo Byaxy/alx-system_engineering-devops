@@ -1,4 +1,4 @@
-**SCRIPT**		**DESCRIPTION**
+**SCRIPT**		**DESCRIPTION**\n
 0-hello_world		*Display "Hello, World" text*
 1-confused_smiley	*Display a confused smiley*
 2-hellofile		*Display contents of the passwd file*
