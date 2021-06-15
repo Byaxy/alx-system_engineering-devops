@@ -6,3 +6,4 @@
 4-lastlines		*Display last 10 lines of the passwd file*
 5-firstlines		*Display first 10 lines of the passwd file*
 6-third_line		*Display third line of the iacta file*
+6-third_line		*Display third line of the iacta file*
