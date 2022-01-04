@@ -1,7 +1,5 @@
 # setting up my client ssh configuration file so that you can connect to
 a server without typing a password
-
-
 include stdlib
 
 file_line { 'Remove passwd auth':
