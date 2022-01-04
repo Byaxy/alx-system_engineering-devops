@@ -4,7 +4,7 @@ a server without typing a password
 
 include stdlib
 
-file_line { 'Turn off passwd auth':
+file_line { 'Remove passwd auth':
   ensure => present,
   path   => '/etc/ssh/ssh_config',
   line   => 'PasswordAuthentication no',
