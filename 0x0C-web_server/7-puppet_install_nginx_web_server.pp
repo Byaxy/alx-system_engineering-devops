@@ -9,12 +9,12 @@ exec {'install':
   provider => shell,
 }
 
-exec {'Holberton':
+exec {'School':
   command  => 'echo "Hellow World!" | sudo tee /var/www/html/index.html',
   provider => shell,
 }
 
-exec {'sudo sed -i "s/listen 80 default_server;/listen 80 default_server;\\n\\tlocation \/redirect_me {\\n\\t\\treturn 301 https:\/\/www.youtube.com\/;\\n\\t}/" /etc/nginx/sites-available/default':
+exec {'sudo sed -i "s/listen 80 default_server;/listen 80 default_server;\\n\\tlocation \/redirect_me {\\n\\t\\treturn 301 https://www.google.com/ permanent;\\n\\t}/" /etc/nginx/sites-available/default':
   provider => shell,
 }
 
