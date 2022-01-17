@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 # Bash script to install nginx web server
 
-apt update
-apt-get -y install nginx
+sudo apt update
+sudo apt-get -y upgrade
+sudo apt-get -y install nginx
 sudo ufw allow 'Nginx HTTP'
 sudo mkdir -p /var/www/html
 sudo chmod -R 755 /var/www
