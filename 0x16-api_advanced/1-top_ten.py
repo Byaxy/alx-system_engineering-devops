@@ -5,7 +5,7 @@ import requests
 import sys
 
 
-def number_of_subscribers(subreddit):
+def top_ten(subreddit):
     '''prints titles of the first 10 hot posts listed for a given subreddit'''
     headers = {'User-agent': 'hbnbtest'}
     url = 'https://www.reddit.com/r/'
